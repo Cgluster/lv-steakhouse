@@ -5,6 +5,7 @@
 html, body {
     margin: 0;
     height: 100%;
+    background: linear-gradient(to left, #160e0c, #2a2a29);
 }
 
 /* Navigation Bar */
@@ -21,6 +22,9 @@ html, body {
     /* Change color and background color */
     height: 50px;
     padding: 1em;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .menu {
@@ -142,4 +146,49 @@ html, body {
 .restaurant-image {
     height: 500px;
     width: 100%;
+}
+
+/* Main Body */
+/* Main Body Images */
+
+.images-row {
+    display: flex;
+}
+
+.images-column {
+    flex: 33.33%;
+    padding: 15px;
+    margin-top: 2rem;
+}
+
+.images-column img {
+    width: 100%;
+    height: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+    .images-column img {
+        height: 300px;
+    }    
+}
+
+/* Main Body Email Registration */
+
+.email-form {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    padding: 0 1rem 3rem 1rem;
+    border: 2px solid white;
+}
+
+.email-form li {
+    list-style-type: none;
+}
+
+.email-signup-text {
+    color: #BBA57A;
+}
+
+.email-line {
+    font-weight: bold;
 }
