@@ -173,6 +173,13 @@ html, body {
     }    
 }
 
+/* Main Body Text */
+.brag-text {
+    text-align: center;
+    font-weight: bold;
+    color:#BBA57A;
+}
+
 /* Main Body Email Registration */
 
 .email-form {
@@ -202,6 +209,30 @@ html, body {
 
 .email-line {
     font-weight: bold;
+}
+
+@media only screen and (max-width: 740px) {
+    .email-form-list {
+        display: block;
+    }
+    .email-input {
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+}
+
+/* Menu Page */
+/* Menu */
+.menu-grid-container {
+    margin-top: 5rem;
+    color: #BBA57A;
+    border: 3px solid #BBA57A;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.menu-grid-container h1 {
+    text-align: center;
 }
 
 /* Footer */
