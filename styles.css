@@ -235,6 +235,18 @@ html, body {
     text-align: center;
 }
 
+.menu-grid h3 {
+    text-align: center;
+}
+
+.menu-column {
+    float: left;
+    width: 50%;
+    height: 100px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
 /* Footer */
 
 .footer-all-pages {
