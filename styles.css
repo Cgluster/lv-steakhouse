@@ -224,27 +224,43 @@ html, body {
 /* Menu Page */
 /* Menu */
 .menu-grid-container {
-    margin-top: 5rem;
+    margin: 5rem 4rem 4rem 4rem;
     color: #BBA57A;
     border: 3px solid #BBA57A;
-    margin-left: 4rem;
-    margin-right: 4rem;
 }
 
 .menu-grid-container h1 {
     text-align: center;
 }
 
-.menu-grid h3 {
+.menu-grid h2 {
+    text-decoration: underline;
+}
+
+.menu-grid h2, h3 {
     text-align: center;
 }
 
 .menu-column {
-    float: left;
-    width: 50%;
     height: 100px;
     box-sizing: border-box;
     text-align: center;
+}
+
+/* Reservations */
+.reservation-container {
+    margin-top: 8rem;
+}
+
+.reservation-header h2 {
+    text-align: center;
+    color: #BBA57A;
+    font-size: 40px;
+}
+
+.reservation-details {
+    text-align: center;
+    color: #BBA57A;
 }
 
 /* Footer */
