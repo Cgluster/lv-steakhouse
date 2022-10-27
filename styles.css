@@ -263,6 +263,27 @@ html, body {
     color: #BBA57A;
 }
 
+.select-date {
+    margin-right: 2rem;
+}
+
+.reservation-images {
+    height: 300px;
+    width: auto;
+}
+
+.select-guest {
+    margin-right: 2rem;
+}
+
+.select-time {
+    margin-right: 2rem;
+}
+
+.reservation-column {
+    margin-bottom: 2rem;
+}
+
 /* Footer */
 
 .footer-all-pages {

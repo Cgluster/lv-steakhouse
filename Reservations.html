@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
     <title>Reservations | LV-Steakhouse</title>
   </head>
   <body>
@@ -29,17 +30,53 @@
     </section>
 
     <!-- WiP on reservation details -->
-    <div class="reservation-container">
-      <div class="reservation-header">
-        <h2>Reserve A Table</h2>
+    <form>
+      <div class="reservation-container">
+        <div class="reservation-header">
+          <h2>Reserve A Table</h2>
+        </div>
+
+        <div class="reservation-details">
+          <div class="reservation-column">
+            <label for="selectdate" class="select-date">Date</label>
+            <input type="date" name="selectdate" id="selectdate" />
+          </div>
+
+          <div class="reservation-column">
+            <label for="selectguests" class="select-guest"
+              >Amount of Guests</label
+            >
+            <input type="number" min="1" max="9" />
+          </div>
+
+          <div class="reservation-column">
+            <label for="timeselection" class="select-time">Time</label>
+            <input type="time" />
+          </div>
+
+          <input type="submit" value="Reserve Table" />
+        </div>
       </div>
-      <div class="reservation-details">
-        <p>Today's date <input type="text" /></p>
-        <p>Guests <input type="text" /></p>
-        <p>Time <input type="text" /></p>
-        <input type="submit" value="Reserve Table" />
+    </form>
+
+    <div class="images-row">
+      <div class="images-column">
+        <img src="/images/dinner-4.jpg" alt="Steak Dinner" />
+      </div>
+      <div class="images-column">
+        <img src="/images/dinner-5.jpg" alt="Steak Dinner" />
+      </div>
+      <div class="images-column">
+        <img src="/images/dinner-6.jpg" alt="Steak Dinner" />
       </div>
     </div>
+
+    <!-- Footer sample, will change -->
+    <footer class="footer-all-pages">
+      <div>
+        <p class="footer-text">About Us | Contact | Careers | Privacy Policy</p>
+      </div>
+    </footer>
 
     <!-- Back to top button -->
     <button class="back-to-top hidden">
