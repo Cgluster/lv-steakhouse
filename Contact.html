@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
     <title>Contact | LV-Steakhouse</title>
   </head>
   <body>
@@ -27,6 +28,69 @@
         <li><a href="/Contact.html" class="navigation-link">Contact</a></li>
       </ul>
     </section>
+
+    <!-- Front of Page with Text -->
+    <div class="contact-container">
+      <div class="contact-image-font">
+        <img
+          src="/images/dinner-7.jpg"
+          alt="Steak Dinner"
+          class="contact-image"
+        />
+        <div class="centered">
+          <h2>How Can We Help You?</h2>
+          <p>We strive to provide the best service.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Form to contact -->
+    <!-- Need a function later -->
+    <h2 class="contact-us-header">Contact Us</h2>
+    <form name="ContactForm" method="post">
+      <p>
+        First Name:
+        <input type="text" size="65" name="FirstName" placeholder="John" />
+      </p>
+      <br />
+      <p>
+        Last Name:
+        <input type="text" size="65" name="LastName" placeholder="Smith" />
+      </p>
+      <br />
+      <p>
+        Contact Number:
+        <input type="text" size="65" name="Number" placeholder="555-555-5555" />
+      </p>
+      <br />
+      <p>
+        Email:
+        <input
+          type="text"
+          size="65"
+          name="Email"
+          placeholder="john.smith@abc.com"
+        />
+      </p>
+      <br />
+      <p>
+        Confirm Email:
+        <input
+          type="text"
+          size="65"
+          name="Email"
+          placeholder="john.smith@abc.com"
+        />
+      </p>
+      <br />
+      <p>
+        Reason for contact:
+        <select type="text" value="" name="Reason">
+          <option>Recent issue with service/order</option>
+          <option>General inquiry</option>
+        </select>
+      </p>
+    </form>
 
     <!-- Back to top button -->
     <button class="back-to-top hidden">
