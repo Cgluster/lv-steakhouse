@@ -46,51 +46,66 @@
 
     <!-- Form to contact -->
     <!-- Need a function later -->
-    <h2 class="contact-us-header">Contact Us</h2>
-    <form name="ContactForm" method="post">
-      <p>
-        First Name:
-        <input type="text" size="65" name="FirstName" placeholder="John" />
-      </p>
-      <br />
-      <p>
-        Last Name:
-        <input type="text" size="65" name="LastName" placeholder="Smith" />
-      </p>
-      <br />
-      <p>
-        Contact Number:
-        <input type="text" size="65" name="Number" placeholder="555-555-5555" />
-      </p>
-      <br />
-      <p>
-        Email:
-        <input
-          type="text"
-          size="65"
-          name="Email"
-          placeholder="john.smith@abc.com"
-        />
-      </p>
-      <br />
-      <p>
-        Confirm Email:
-        <input
-          type="text"
-          size="65"
-          name="Email"
-          placeholder="john.smith@abc.com"
-        />
-      </p>
-      <br />
-      <p>
-        Reason for contact:
-        <select type="text" value="" name="Reason">
-          <option>Recent issue with service/order</option>
-          <option>General inquiry</option>
-        </select>
-      </p>
-    </form>
+    <div class="form-container">
+      <h2 class="contact-us-header">Contact Us</h2>
+      <form name="ContactForm" method="post">
+        <p>
+          First Name:
+          <input type="text" size="65" name="FirstName" placeholder="John" />
+        </p>
+        <br />
+        <p>
+          Last Name:
+          <input type="text" size="65" name="LastName" placeholder="Smith" />
+        </p>
+        <br />
+        <p>
+          Contact Number:
+          <input
+            type="text"
+            size="65"
+            name="Number"
+            placeholder="555-555-5555"
+          />
+        </p>
+        <br />
+        <p>
+          Email:
+          <input
+            type="text"
+            size="65"
+            name="Email"
+            placeholder="john.smith@abc.com"
+          />
+        </p>
+        <br />
+        <p>
+          Confirm Email:
+          <input
+            type="text"
+            size="65"
+            name="Email"
+            placeholder="john.smith@abc.com"
+          />
+        </p>
+        <br />
+        <p>
+          Reason for contact:
+          <select type="text" value="" name="Reason">
+            <option>Recent issue with service/order</option>
+            <option>General inquiry</option>
+          </select>
+        </p>
+        <input type="submit" value="Send Message" />
+      </form>
+    </div>
+
+    <!-- Footer sample, will change -->
+    <footer class="footer-all-pages">
+      <div>
+        <p class="footer-text">About Us | Contact | Careers | Privacy Policy</p>
+      </div>
+    </footer>
 
     <!-- Back to top button -->
     <button class="back-to-top hidden">

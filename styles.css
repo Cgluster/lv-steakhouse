@@ -237,7 +237,7 @@ html, body {
     text-decoration: underline;
 }
 
-.menu-grid h2, h3 {
+.menu-grid h2, .menu-grid h3 {
     text-align: center;
 }
 
@@ -248,6 +248,7 @@ html, body {
 }
 
 /* Reservations */
+
 .reservation-container {
     margin-top: 8rem;
 }
@@ -284,7 +285,39 @@ html, body {
     margin-bottom: 2rem;
 }
 
+/* Order */
+
+.order-header {
+    text-align: center;
+    font-size: 20px;
+    color: #BBA57A;
+    margin-top: 6rem;
+    text-decoration: underline;
+}
+
+/* Use this to align items to order */
+/* .images-row {
+    display: flex;
+}
+
+.images-column {
+    flex: 33.33%;
+    padding: 15px;
+    margin-top: 2rem;
+} */
+
 /* Contact */
+
+.form-container {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #BBA57A;
+}
+
+.contact-us-header {
+    text-decoration: underline;
+}
 
 .contact-image {
     width: 100%;
