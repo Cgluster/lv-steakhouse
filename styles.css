@@ -295,16 +295,39 @@ html, body {
     text-decoration: underline;
 }
 
+.order-row {
+    color: #BBA57A;
+}
+
+.order-row h2 {
+    margin-left: 2rem;
+}
+
 /* Use this to align items to order */
-/* .images-row {
+
+.order-row {
     display: flex;
 }
 
-.images-column {
+.order-column {
     flex: 33.33%;
     padding: 15px;
     margin-top: 2rem;
-} */
+}
+
+/* Responsive Order Page */
+
+@media only screen and (max-width: 650px) {
+    .order-row {
+        display: block;
+        text-align: center;
+    }
+
+    .order-row h2 {
+        text-decoration: underline;
+        margin-right: 2rem;
+    }
+}
 
 /* Contact */
 
